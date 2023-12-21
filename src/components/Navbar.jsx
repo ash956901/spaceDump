@@ -10,7 +10,7 @@ export default function Navbar(){
       <div className="w-10/12 mx-auto flex flex-row  justify-between items-center">
 
           <div className=" p-3">
-            <Link to="./home">
+            <Link to="./">
               <img className="w-[80px]" src="../logo-no-background.png" alt="Logo Here" />
             </Link>
           </div>
@@ -18,7 +18,7 @@ export default function Navbar(){
         <div className="text-white text-lg relative flex font-poppins font-semibold">
 
           <div className="hidden sm:flex  flex-row items-center space-x-4">
-            <Link to="./home">
+            <Link to="./">
               <p className="hover:text-[#dede50] transiton-all duration-200 ease-in">Home</p>
             </Link>
 

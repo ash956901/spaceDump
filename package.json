@@ -1,6 +1,5 @@
 {
-  "homepage": "https://ash956901.github.io/spaceDump",
-  "name": "react-tailwind-css-starter-pack",
+  "name": "space-dump",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
