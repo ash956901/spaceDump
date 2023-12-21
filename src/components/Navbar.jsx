@@ -55,7 +55,7 @@ export default function Navbar(){
 
       <div className={pressed?("flex transition-all duration-300 ease-in bg-yellow-400 flex-col items-center justify-center sm:hidden text-black font-bold font-poppins"):("hidden")}>
 
-        <Link className="py-4  hover:bg-burger w-full flex justify-center hover:text-yellow-400  transition-all duration-300 ease-in" to="./home">Home</Link>        
+        <Link className="py-4  hover:bg-burger w-full flex justify-center hover:text-yellow-400  transition-all duration-300 ease-in" to="./">Home</Link>        
         <Link className="py-4 hover:bg-burger w-full flex justify-center hover:text-yellow-400  transition-all duration-300 ease-in" to="./earth">Earth</Link>        
         <Link className="py-4 hover:bg-burger w-full flex justify-center hover:text-yellow-400  transition-all duration-300 ease-in" to="./mars">Mars</Link>        
         <Link className="py-4 hover:bg-burger w-full flex justify-center hover:text-yellow-400  transition-all duration-300 ease-in" to="./potd">Potd</Link>        
