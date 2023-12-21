@@ -1,0 +1,17 @@
+  <div>
+        <p></p>
+        {
+          loading?
+          (<Spinner/>):
+          (
+            video?
+            (<video src={potd.url}/>):
+            (<img alt="picoftheday" src={potd.url}/>)
+          )
+        }
+
+        <p>{potd.explanation}</p>
+
+      </div>
+
+

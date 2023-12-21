@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spaceDump/static/css/main.86247035.css",
+    "main.js": "/spaceDump/static/js/main.5b489dde.js",
+    "static/media/bg.png": "/spaceDump/static/media/bg.0aa95931c838250e3109.png",
+    "static/media/bg-burger.jpg": "/spaceDump/static/media/bg-burger.3bde999fad9200d3175e.jpg",
+    "index.html": "/spaceDump/index.html",
+    "main.86247035.css.map": "/spaceDump/static/css/main.86247035.css.map",
+    "main.5b489dde.js.map": "/spaceDump/static/js/main.5b489dde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86247035.css",
+    "static/js/main.5b489dde.js"
+  ]
+}
