@@ -1,0 +1,99 @@
+/* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.App{
+  background-image: url("./bg.png");
+}
+
+
+.potd-header{
+  transition: all 2s linear;
+}
+.potd-header:hover{
+  color:#fff;
+  text-shadow: 0 0 10px rgb(5 150 105),
+               0 0 20px rgb(5 150 105),
+               0 0 40px rgb(5 150 105),
+               0 0 80px rgb(5 150 105),
+               0 0 120px rgb(5 150 105);
+  word-spacing: 100px;
+}
+
+.neon{
+  font-family: 'Monoton', cursive;
+  font-size:132px;
+  color: #FFD5FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
+}
+
+@media (min-width: 640px) { 
+ 
+}
+@media (min-width: 768px) {  }
+@media (min-width: 1024px) { }
+.flicker-slow{
+  animation: flicker 3s linear infinite;
+}
+
+.flicker-fast{
+  animation: flicker 1s linear infinite;
+}
+
+
+@keyframes flicker{
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%{
+    opacity:0.99;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+
+}
+
+
+.glow{
+  color:#fff;
+  text-shadow: 0 0 10px rgb(252, 130, 0),
+               0 0 20px rgb(252, 130, 0),
+               0 0 40px rgb(252, 130, 0),
+               0 0 80px rgb(252, 130, 0),
+               0 0 120px rgb(252, 130, 0);
+}
+.under {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 248, 74, 0.822),
+    #54d6cb 50%,
+    #ffffff 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.under:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.under:hover {
+ background-position: 0;
+}
