@@ -14,13 +14,8 @@ export default function Earth(){
   
 
   //Date evaluation
-  let astDate=new Date().toLocaleDateString();
-  console.log(astDate);
-  let arr=astDate.split("/");
-  let month=arr[0];
-  let day=arr[1];
-  let year=arr[2];
-  let astFullDate= year + "-" + month + "-" + day;
+  let astDate=new Date();
+  let astFullDate= astDate.toISOString().split("T")[0];
   console.log(astFullDate);
 
   //state Variables
