@@ -42,7 +42,7 @@ export default function Earth(){
     }
     catch(err){
       setAsteroid({});
-      console.log("Error while fetching the near earth objects");
+      alert("Error while fetching the near earth objects");
     }
     setLoading2(false);
    
@@ -60,7 +60,7 @@ export default function Earth(){
       setUrl(res.url);
     }
     catch(error){   
-      console.log("error while api call");
+      alert("error while api call");
     }
     setLoading1(false);
   }
