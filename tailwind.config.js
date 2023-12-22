@@ -14,7 +14,7 @@ module.exports = {
         'sec-orange':'F05941',
       },
       backgroundImage: {
-        'space': "url('/src/bg.png')",
+        'space': "url('/src/bg.jpg')",
         'burger':"url('/src/bg-burger.jpg')",
       },
       animation: {
