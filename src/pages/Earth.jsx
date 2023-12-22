@@ -63,7 +63,7 @@ export default function Earth(){
       setUrl(res.url);
     }
     catch(error){   
-      console.log("error while api call");
+      alert("error while api call");
     }
     setLoading1(false);
   }
