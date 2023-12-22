@@ -25,7 +25,7 @@ export default function Earth(){
 
   //state Variables
   const[url,setUrl]=useState("");
-  const [asteroid,setAsteroid]=useState({});
+  const [asteroid,setAsteroid]=useState([]);
   const[loading1,setLoading1]=useState(false);
   const[loading2,setLoading2]=useState(true);
   const [count,setCount]=useState(0);
@@ -33,16 +33,19 @@ export default function Earth(){
   async function fetchAsteroids(){
     setLoading2(true);
     try{
-      const response=await fetch(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${astFullDate}&end_date=${astFullDate}&api_key=${api_key}`);
+      const response=await fetch(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${astFullDate}&end_date${astFullDate}&api_key=${api_key}`);
       const data=await response.json();
+      if(data==undefined){
+        alert("Coudnt get near earth objects , server error");
+        return ;
+      }
       setCount(data.element_count);
       setAsteroid(data.near_earth_objects[`${astFullDate}`]);
      
      
     }
     catch(err){
-      setAsteroid({});
-      console.log("Error while fetching the near earth objects");
+     alert("Error while fetching the near earth objects,server error");
     }
     setLoading2(false);
    
