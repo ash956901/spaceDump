@@ -23,7 +23,7 @@ export default function Patents(){
       else{
         setPatents(data.results);
       }
-      
+    
     }
     catch(error){
       console.log("couldnt fetch the patent you wanted");
@@ -45,6 +45,10 @@ export default function Patents(){
 
   async function submitHandler(e){
     e.preventDefault();
+    if(patents.length===0){
+      alert(`No matching patents with the name ${userinput}`);
+      return;
+    }
     await patents.forEach(patent => {
       document.content.push({
           columns:[
