@@ -49,12 +49,18 @@ If you'd like to contribute to SpaceDump, please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Images
-![Preview Image 1](https://i.ibb.co/9sq8LTk/preview-image-1.jpg)
-![Preview Image 2](https://i.ibb.co/RCf9gzk/preview-image-2.jpg)
-![Preview Image 3](https://i.ibb.co/v4GyzcM/preview-image-3.jpg)
-![Preview Image 4](https://i.ibb.co/Jqmpyjf/preview-image-4.jpg)
-![Preview Image 5](https://i.ibb.co/hgNj995/preview-image-5.jpg)
-![Preview Image 6](https://i.ibb.co/RCf9gzk/preview-image-6.jpg)
+
+<a href="https://ibb.co/hgNj995"><img src="https://i.ibb.co/ZfrPXXs/home.png" alt="home" border="0"></a>
+<a href="https://ibb.co/Jqmpyjf"><img src="https://i.ibb.co/dtjpL4d/mars.png" alt="mars" border="0"></a>
+<a href="https://ibb.co/v4GyzcM"><img src="https://i.ibb.co/whXG6d2/archives.png" alt="archives" border="0"></a>
+<a href="https://ibb.co/RCf9gzk"><img src="https://i.ibb.co/GVy0dc4/potd.png" alt="potd" border="0"></a>
+<a href="https://ibb.co/F5FpSNS"><img src="https://i.ibb.co/sKZ70k0/patents.png" alt="patents" border="0"></a>
+<a href="https://ibb.co/9sq8LTk"><img src="https://i.ibb.co/r4Z7S6R/about.png" alt="about" border="0"></a>
+
+
+
+
+
 
 
 <!-- Add more preview images if needed -->
