@@ -9,8 +9,9 @@ A Space Memoir for All Your Childhood Space Dreams 🚀😊
 4. [Technologies Used](#technologies-used)
 5. [Contributing](#contributing)
 6. [License](#license)
-7. [Acknowledgements](#acknowledgements)
-8. [Contact Information](#contact-information)
+7. [Images](#images)
+8. [Acknowledgements](#acknowledgements)
+9. [Contact Information](#contact-information)
 
 ## Installation
 - Clone the repository: `git clone https://github.com/your-username/space-dump.git`
@@ -46,6 +47,17 @@ If you'd like to contribute to SpaceDump, please follow these steps:
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Images
+![Preview Image 1](https://i.ibb.co/9sq8LTk/preview-image-1.jpg)
+![Preview Image 2](https://i.ibb.co/RCf9gzk/preview-image-2.jpg)
+![Preview Image 3](https://i.ibb.co/v4GyzcM/preview-image-3.jpg)
+![Preview Image 4](https://i.ibb.co/Jqmpyjf/preview-image-4.jpg)
+![Preview Image 5](https://i.ibb.co/hgNj995/preview-image-5.jpg)
+![Preview Image 6](https://i.ibb.co/RCf9gzk/preview-image-6.jpg)
+
+
+<!-- Add more preview images if needed -->
 
 ## Acknowledgements
 - [NASA Open APIs](https://api.nasa.gov/)
