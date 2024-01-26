@@ -51,7 +51,12 @@ export default function Potd(){
           (<Spinner/>):
           (
             video?
-            (<video src={potd.url}/>):
+            (
+              <video controls width="100%" height="65%" >
+                <source src={potd.url} />
+                Your Browser cant play the Video :-(
+              </video>
+            ):
             (<img alt="picoftheday" className="rounded-xl  w-3/4"  src={potd.url}/>)
           )
         }
