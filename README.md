@@ -74,4 +74,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or collaboration opportunities, feel free to reach out to the project owner:
 - Name: Ashutosh Kumar
 - Email: ak956901@gmail.com
+ - LinkedIn: https://www.linkedin.com/in/ashutosh-kumar-170242189/
+- Twitter: @ak956901
 
