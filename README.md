@@ -14,7 +14,7 @@ A Space Memoir for All Your Childhood Space Dreams 🚀😊
 9. [Contact Information](#contact-information)
 
 ## Installation
-- Clone the repository: `git clone https://github.com/your-username/space-dump.git`
+- Clone the repository: `git clone https://github.com/ash956901/spaceDump.git`
 - Install dependencies: `npm install`
 
 ## Usage
