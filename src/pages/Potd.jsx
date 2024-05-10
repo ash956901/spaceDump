@@ -57,6 +57,7 @@ export default function Potd(){
               <ReactPlayer
               url={potd?.url}
               controls={true}
+                width={"100%"}
               
               
               />
