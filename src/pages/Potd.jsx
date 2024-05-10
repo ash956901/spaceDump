@@ -1,3 +1,5 @@
+import React from "react";
+import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
 import Spinner from "../components/Spinner";
 import "../App.css";
@@ -52,10 +54,12 @@ export default function Potd(){
           (
             video?
             (
-              <video controls width="100%" height="65%" >
-                <source src={potd.url} />
-                Your Browser cant play the Video :-(
-              </video>
+              <ReactPlayer
+              url={potd?.url}
+              controls={true}
+              
+              
+              />
             ):
             (<img alt="picoftheday" className="rounded-xl  w-3/4"  src={potd.url}/>)
           )
